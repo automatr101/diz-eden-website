@@ -31,10 +31,10 @@ const Amenities = () => {
   return (
     <section className="py-32 md:py-48 bg-[#f5f5f5]">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="text-center max-w-3xl mx-auto mb-24">
+        <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
           <span className="text-xs md:text-sm font-sans tracking-[0.3em] uppercase text-gray-400 mb-6 block">The Details</span>
-          <h2 className="text-5xl md:text-6xl font-serif text-[#111111] mb-6 leading-tight">What This Place Offers</h2>
-          <p className="text-gray-500 font-sans text-lg font-light">50 amenities included — everything for a seamless, luxurious stay.</p>
+          <h2 className="text-3xl md:text-6xl font-serif text-[#111111] mb-6 leading-tight px-4">What This Place Offers</h2>
+          <p className="text-gray-500 font-sans text-base md:text-lg font-light px-6">50 amenities included — everything for a seamless, luxurious stay.</p>
         </div>
 
         <motion.div
@@ -48,7 +48,7 @@ const Amenities = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="flex flex-col items-center text-center p-10 bg-[#fdfdfd] border-none shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-700 rounded-sm"
+              className="flex flex-col items-center text-center p-8 md:p-10 bg-[#fdfdfd] border-none shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-700 rounded-sm"
             >
               <div className="text-[#bda255] mb-6">
                 {item.icon}

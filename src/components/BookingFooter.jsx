@@ -24,7 +24,7 @@ const BookingFooter = () => {
             <span className="text-xs md:text-sm font-sans tracking-[0.3em] uppercase text-[#bda255] mb-8 block text-left">
               Reservations
             </span>
-            <h2 className="text-6xl md:text-8xl font-serif mb-10 text-white text-left leading-[1.1]">Book Your Stay.</h2>
+            <h2 className="text-4xl md:text-8xl font-serif mb-10 text-white text-left leading-[1.1] px-4 -ml-4">Book Your Stay.</h2>
             <p className="text-gray-400 font-sans mb-16 text-xl leading-loose max-w-lg text-left font-light">
               Reserve your private luxury short-let in Oyarifa today. We process all 
               bookings directly to ensure you get the best rate without third-party fees.

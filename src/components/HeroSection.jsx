@@ -28,7 +28,7 @@ const HeroSection = () => {
           <span className="text-xs md:text-sm font-sans tracking-[0.4em] uppercase text-white/80 mb-6 block drop-shadow-md">
             East Legon, Accra
           </span>
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif text-[#fdfdfd] leading-none mb-8 drop-shadow-xl">
+          <h1 className="text-5xl md:text-8xl lg:text-9xl font-serif text-[#fdfdfd] leading-tight mb-8 drop-shadow-xl px-4">
             Escape<br className="md:hidden" /> to Calm
           </h1>
           

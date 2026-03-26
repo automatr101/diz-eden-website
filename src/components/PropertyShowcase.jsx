@@ -36,7 +36,7 @@ const PropertyShowcase = () => {
             transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
             viewport={{ once: true }}
           >
-            <h2 className="text-5xl lg:text-7xl font-serif text-[#111111] leading-[1.1] mb-10">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif text-[#111111] leading-[1.1] mb-10">
               Designed for Living
             </h2>
             <p className="text-gray-500 font-sans text-lg lg:text-xl mb-16 leading-relaxed font-light">

@@ -28,7 +28,7 @@ const Experience = () => {
           <span className="text-xs md:text-sm font-sans tracking-[0.4em] uppercase text-[#bda255] mb-8 block">
             The Space
           </span>
-          <h2 className="text-6xl md:text-8xl font-serif mb-10 text-[#fdfdfd] leading-tight">
+          <h2 className="text-4xl md:text-8xl font-serif mb-10 text-[#fdfdfd] leading-tight px-4">
             Crafted for the<br />Discerning Guest.
           </h2>
           <p className="text-xl md:text-2xl font-sans font-light leading-[2] max-w-3xl mx-auto text-gray-200">

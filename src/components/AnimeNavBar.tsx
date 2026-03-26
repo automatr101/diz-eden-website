@@ -27,7 +27,7 @@ export const AnimeNavBar = ({
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
       className={cn(
-        "fixed top-0 inset-x-0 z-50 flex items-center justify-between px-6 py-4 lg:px-12 backdrop-blur-md bg-black/40 border-b border-white/5",
+        "fixed top-0 inset-x-0 z-50 flex items-center justify-between px-4 py-3 md:px-8 lg:px-12 backdrop-blur-md bg-black/60 border-b border-white/10",
         className
       )}
     >
