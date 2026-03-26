@@ -63,13 +63,26 @@ export const AnimeNavBar = ({
         </MovingBorderButton>
       </div>
 
-      {/* Mobile Toggle */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden text-white p-2 focus:outline-none"
-      >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
+      {/* Mobile Controls */}
+      <div className="flex md:hidden items-center gap-3">
+        <MovingBorderButton
+          as="a"
+          href="#booking"
+          containerClassName="h-9 w-24"
+          borderRadius="0.25rem"
+          className="bg-brand-gold/10 backdrop-blur-sm border-none text-brand-gold text-xs font-inter font-bold uppercase tracking-widest hover:bg-brand-gold/20 transition-all duration-300"
+          borderClassName="bg-[radial-gradient(#d4af37_40%,transparent_60%)]"
+          duration={3000}
+        >
+          Book Now
+        </MovingBorderButton>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="text-white p-1 focus:outline-none"
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
 
       {/* Mobile Menu */}
       <AnimatePresence>
